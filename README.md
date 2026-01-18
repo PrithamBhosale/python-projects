@@ -1,14 +1,36 @@
-# 🐍 Python & Pandas Training Series
+# Python & Pandas Training Series
 
-A comprehensive, interactive training program designed for **senior data analysts** to master Python and Pandas for business analytics.
+A comprehensive, interactive training project designed to help senior data analysts master Python and Pandas for business analytics. This project contains structured Jupyter notebooks covering Python fundamentals through advanced data analysis techniques.
 
 ---
 
-## 📚 Course Overview
+## Table of Contents
 
-This training series provides hands-on learning through interactive Jupyter notebooks, progressing from Python fundamentals to advanced data analysis and visualization techniques.
+- [Overview](#overview)
+- [Module Breakdown](#module-breakdown)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Datasets](#datasets)
+- [Technologies](#technologies)
 
-### **Module 0: Python Fundamentals**
+---
+
+## Overview
+
+This training series provides hands-on learning through interactive Jupyter notebooks. The curriculum is organized into two main sections:
+
+1. **Python Fundamentals (Module 0)** — Core programming concepts required for data analysis
+2. **Pandas Mastery (Modules 1-6)** — Data manipulation, visualization, and real-world applications
+
+Each notebook follows a consistent structure with concept explanations, reference code, practice exercises, and challenge questions.
+
+---
+
+## Module Breakdown
+
+### Python Fundamentals
+
 | Module | Topic | Description |
 |--------|-------|-------------|
 | 0.1 | Python Basics | Variables, data types, and basic operations |
@@ -21,51 +43,41 @@ This training series provides hands-on learning through interactive Jupyter note
 | 0.8 | Functions | Writing reusable code blocks |
 | 0.9 | File I/O | Reading and writing files |
 
-### **Module 1-6: Pandas Mastery**
+### Pandas and Data Analysis
+
 | Module | Topic | Description |
 |--------|-------|-------------|
 | 1 | Series & DataFrames | Core Pandas data structures |
 | 2 | Indexing & GroupBy | Data selection and aggregation |
 | 3 | Joins | Merging and combining datasets |
 | 4 | Data Cleaning | Pre-processing and data quality |
-| 5 | Visualization | Matplotlib & Seaborn charts |
-| 6 | Real-World Projects | Applied business analytics |
+| 5 | Visualization | Charts with Matplotlib and Seaborn |
+| 6 | Real-World Projects | Applied business analytics scenarios |
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-pip install pandas matplotlib seaborn jupyter
-```
-
-### Launch the Training
-```bash
-cd query
-jupyter notebook
-```
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 TechFlow/
 ├── README.md
-├── dataset/                    # Sample business data
-│   ├── TechFlow.csv           # Main customer dataset
-│   ├── customers_*.csv        # Various customer data files
-│   ├── orders.csv             # Order information
-│   ├── products.csv           # Product catalog
-│   ├── regions.csv            # Regional data
-│   ├── daily_metrics.csv      # Time-series metrics
-│   ├── monthly_revenue.csv    # Revenue data
-│   ├── quarterly_revenue.csv  # Quarterly summaries
-│   ├── nps_surveys.csv        # Customer satisfaction
-│   └── support_tickets.tsv    # Support data
+├── dataset/
+│   ├── TechFlow.csv              # Primary customer dataset
+│   ├── customers_dirty.csv       # Dataset with data quality issues
+│   ├── customers_messy.csv       # Dataset for cleaning exercises
+│   ├── customers_new.csv         # Additional customer records
+│   ├── customers_small.csv       # Subset for quick testing
+│   ├── customer_regions.csv      # Customer-region mapping
+│   ├── orders.csv                # Transaction records
+│   ├── products.csv              # Product catalog
+│   ├── regions.csv               # Geographic regions
+│   ├── daily_metrics.csv         # Daily performance metrics
+│   ├── monthly_revenue.csv       # Monthly revenue data
+│   ├── quarterly_revenue.csv     # Quarterly summaries
+│   ├── nps_surveys.csv           # Net Promoter Score data
+│   └── support_tickets.tsv       # Customer support records
 │
-└── query/                      # Interactive notebooks
+└── query/
     ├── techflow_module_0.1_python_basics.ipynb
     ├── techflow_module_0.2_strings.ipynb
     ├── techflow_module_0.3_numbers.ipynb
@@ -85,49 +97,73 @@ TechFlow/
 
 ---
 
-## 🎯 Learning Approach
+## Prerequisites
 
-Each notebook follows an **interactive, hands-on methodology**:
+Ensure the following are installed:
 
-1. **📖 Concept Introduction** — Clear explanations with business context
-2. **💻 Reference Code** — Working examples to study
-3. **✍️ Practice Cells** — Empty cells for you to code
-4. **❓ Challenge Questions** — Test your understanding
-5. **🏆 Mini-Projects** — Apply skills to real scenarios
+- Python 3.8 or higher
+- Jupyter Notebook or JupyterLab
+- Required Python packages:
 
----
-
-## 📊 Sample Datasets
-
-The training uses realistic TechFlow business data including:
-
-- **Customer Records** — Demographics, subscription tiers, health scores
-- **Sales Data** — Orders, products, revenue metrics
-- **Support Data** — Tickets, NPS surveys, satisfaction scores
-- **Time Series** — Daily, monthly, and quarterly metrics
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
 
 ---
 
-## 🛠️ Technologies Used
+## Getting Started
 
-- **Python 3.x**
-- **Pandas** — Data manipulation
-- **Matplotlib** — Basic visualization
-- **Seaborn** — Statistical graphics
-- **Jupyter Notebooks** — Interactive environment
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PrithamBhosale/python-projects.git
+   cd python-projects
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
+   ```
+
+3. Launch Jupyter:
+   ```bash
+   cd query
+   jupyter notebook
+   ```
+
+4. Open the notebooks in sequential order, starting with `techflow_module_0.1_python_basics.ipynb`.
 
 ---
 
-## 📝 License
+## Datasets
 
-This project is for educational purposes.
+The project includes realistic business datasets modeled after a SaaS company:
+
+| Dataset | Description | Format |
+|---------|-------------|--------|
+| TechFlow.csv | Core customer data including demographics, subscription tiers, and health scores | CSV |
+| orders.csv | Transaction and order history | CSV |
+| products.csv | Product catalog with pricing | CSV |
+| regions.csv | Geographic region definitions | CSV |
+| daily_metrics.csv | Time-series performance data | CSV |
+| monthly_revenue.csv | Aggregated monthly financials | CSV |
+| quarterly_revenue.csv | Quarterly business summaries | CSV |
+| nps_surveys.csv | Customer satisfaction survey results | CSV |
+| support_tickets.tsv | Customer support ticket records | TSV |
+
+Additional datasets (`customers_dirty.csv`, `customers_messy.csv`) are intentionally formatted with data quality issues for use in Module 4 (Data Cleaning).
 
 ---
 
-## 🤝 Contributing
+## Technologies
 
-Feel free to submit issues and enhancement requests!
+- **Python 3.x** — Primary programming language
+- **Pandas** — Data manipulation and analysis
+- **Matplotlib** — Data visualization
+- **Seaborn** — Statistical data visualization
+- **Jupyter Notebooks** — Interactive development environment
 
 ---
 
-**Happy Learning! 🎉**
+## License
+
+This project is provided for educational purposes.
