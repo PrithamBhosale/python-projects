@@ -1,0 +1,6 @@
+ProductID,ProductName,Category,BasePrice
+P001,Basic Analytics,Analytics,100
+P002,Pro Analytics,Analytics,150
+P003,Data Storage,Storage,50
+P004,Enterprise Suite,Bundle,500
+P005,API Access,Integration,200

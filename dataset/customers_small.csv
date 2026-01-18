@@ -1,0 +1,11 @@
+CustomerID,CompanyName,Industry,SubscriptionPlan,MonthlyRevenue,SeatCount,NPS_Score,Cancelled
+1001,CloudNine,Technology,Enterprise,500,50,9,0
+1002,MediCare Plus,Healthcare,Basic,50,5,6,1
+1003,EduLearn,Education,Standard,150,20,8,0
+1004,FinServe,Finance,Enterprise,600,65,10,0
+1005,RetailHub,Retail,Standard,150,15,4,1
+1006,LogiTrack,Logistics,Basic,50,3,7,0
+1007,GreenEnergy,Energy,Standard,150,25,9,0
+1008,BuildIt,Construction,Basic,50,4,8,0
+1009,FoodieApp,Hospitality,Enterprise,550,55,7,0
+1010,LegalEagle,Legal,Standard,200,10,5,1

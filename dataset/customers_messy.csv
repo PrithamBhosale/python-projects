@@ -1,0 +1,16 @@
+CustomerID,CompanyName,Industry,Revenue,NPS
+1001,  CloudNine  ,TECHNOLOGY,$500,9
+1002,Medicare Plus,healthcare,50,6
+1003,EduLearn,Education,$150,eight
+1004,FinServe,FINANCE,$600,10
+1005,RetailHub,  Retail  ,$150,N/A
+1006,LogiTrack,logistics,50,7
+1007,GreenEnergy,Energy,$150,9
+1008,buildIt,CONSTRUCTION,$50,8
+1009,FoodieApp,Hospitality,five hundred fifty,7
+1010,LegalEagle,Legal,$200,5
+1011,,Technology,$300,8
+1012,DataCorp,Technology,,7
+1013,CloudFirst,tech,$400,
+1014,MarketPro,Retail,$250,6
+1015,HealthSync,Healthcare,$180,

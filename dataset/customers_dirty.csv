@@ -1,0 +1,19 @@
+CustomerID,CompanyName,Email,Industry,Revenue,SignupDate,PhoneNumber,Address,Status
+1001,CloudNine,info@cloudnine.com,Technology,$5000,2023-01-15,(555) 123-4567,123 Tech St Suite 100 NYC NY 10001,active
+1002,MediCare Plus,contact@medicare-plus.com,HEALTHCARE,$500,01/20/2023,555.234.5678,456 Health Ave Boston MA,Active
+1003,edulearn,INFO@EDULEARN.COM,education,$1500,2023-02-10,5553456789,789 Learn Blvd Chicago IL 60601,ACTIVE
+1004,FinServe,sales@finserve.com,Finance,$6000,March 5 2023,(555) 456-7890,321 Money Ln  San Francisco CA 94102,active
+1005,  RetailHub  ,support@retailhub.com,  retail  ,$1500,2023/03/15,555 567 8901,654 Shop Dr Dallas TX,inactive
+1006,LogiTrack,hello@logitrack.com,Logistics,$500,2023-04-01,,987 Freight Rd Seattle WA 98101,Active
+1007,GreenEnergy,info@greenenergy.com,ENERGY,$1500,04-15-2023,(555)678-9012,,,active
+1001,CloudNine,info@cloudnine.com,Technology,$5000,2023-01-15,(555) 123-4567,123 Tech St Suite 100 NYC NY 10001,active
+1008,BuildIt,contact@buildit.com,construction,$500,2023-05-01,555-789-0123,147 Build Way Denver CO 80201,Active
+1009,FoodieApp,support@FOODIEAPP.com,Hospitality,$5500,May 20 2023,N/A,258 Food Ct Miami FL 33101,ACTIVE
+1010,  LegalEagle,legal@legaleagle.com,  Legal,$2000,2023-06-01,(555) 890 1234,369 Law Blvd Philadelphia PA,inactive
+1003,EduLearn,info@edulearn.com,Education,$1550,2023-02-15,5553456789,789 Learn Blvd Chicago IL 60601,active
+1011,AutoDrive,,Automotive,$500,2023-06-15,555.901.2345,741 Auto Ave Detroit MI 48201,active
+1012,CyberSecure,admin@cybersecure.com,technology,$7000,06/30/2023,(555) 012-3456,852 Secure St Austin TX 78701,Active
+1013,HealthFirst,info@healthfirst.org,Healthcare,$1500,2023-07-10,555-123-4567,963 Health Ln Portland OR 97201,active
+1014,SchoolSync,support@schoolsync.com,Education,$500,,555 234 5678,174 School Rd Phoenix AZ 85001,INACTIVE
+1015,MoneyWise,contact@moneywise.com,FINANCE,$1800,2023-08-01,(555)345-6789,285 Wealth Ave NYC NY 10002,active
+1002,MediCare Plus,billing@medicare-plus.com,Healthcare,$500,01/20/2023,555.234.5678,456 Health Ave Boston MA,Active

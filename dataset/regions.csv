@@ -1,0 +1,6 @@
+RegionID,RegionName,Country,Timezone
+R001,North America - East,USA,EST
+R002,North America - West,USA,PST
+R003,Europe - West,UK,GMT
+R004,Europe - Central,Germany,CET
+R005,Asia Pacific,Singapore,SGT
